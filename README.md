@@ -19,7 +19,7 @@ The Android APP supports Android Wear devices for controlling and reading values
 <img src="http://discoursefiles.s3-eu-west-1.amazonaws.com/original/1X/2faffe71abf48fd47281e32a91b676b15f6d2f05.png" width="240">
 <img src="http://discoursefiles.s3-eu-west-1.amazonaws.com/original/1X/c413cff037d5f9a2941bc6a723b45259ef693196.png" width="240">
 <img src="http://discoursefiles.s3-eu-west-1.amazonaws.com/original/1X/d120460c2c50f8ac9853fa1e5927548e2d1cb424.png" width="240">
-</p>>
+</p>
 
 ## Features under development
 
