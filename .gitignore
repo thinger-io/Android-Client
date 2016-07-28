@@ -1,5 +1,7 @@
 # Built application files
 /*/build/
+/build
+/captures
 
 # Crashlytics configuations
 com_crashlytics_export_strings.xml
@@ -8,9 +10,9 @@ com_crashlytics_export_strings.xml
 local.properties
 
 # Gradle generated files
+.gradle
 .gradle/
-gradlew
-gradlew.bat 
+/*/*.iml
 
 .signing/
 .navigation/
