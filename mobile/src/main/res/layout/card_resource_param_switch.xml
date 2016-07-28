@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="6dip">
+
+    <TextView
+        android:id="@+id/param_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resource Input"
+        android:textSize="16sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <Switch
+        android:id="@+id/param_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dip"/>
+
+</LinearLayout>

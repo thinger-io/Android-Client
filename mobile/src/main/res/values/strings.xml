@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Thinger.io</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scanner">Scan Device QR Code</string>
+    <string name="title_activity_thinger_device">Device</string>
+    <string name="title_activity_devices">DevicesActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="camera_qr_access_error">Camera is required to scan the QR code of the device</string>
+    <string name="nfc_not_supported">This device doesn\'t support NFC.</string>
+</resources>

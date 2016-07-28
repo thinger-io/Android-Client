@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Thinger.io</string>
+    <string name="title_activity_device">Device</string>
+    <string name="title_activity_resource_control">Device Resource</string>
+</resources>

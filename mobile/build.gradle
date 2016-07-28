@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "io.thinger.thinger"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 3
+        versionName "1.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    wearApp project(':wear')
+    compile project(':api')
+    compile project(':wearinterface')
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.android.support:cardview-v7:24.1.1'
+    compile 'com.android.support:design:24.1.1'
+    compile 'com.android.support:recyclerview-v7:24.1.1'
+    compile 'me.dm7.barcodescanner:zxing:1.8.2'
+    compile 'com.google.android.gms:play-services-wearable:9.2.1'
+    compile 'com.google.android.gms:play-services-analytics:9.2.1'
+}

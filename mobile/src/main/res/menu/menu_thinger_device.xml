@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="io.thinger.thinger.ThingerDevice">
+
+
+    <item android:id="@+id/refresh_device_resources" android:title="Refresh"
+        android:orderInCategory="100" app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_refresh"/>
+</menu>

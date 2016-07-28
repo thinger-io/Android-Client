@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "io.thinger.thinger"
+        minSdkVersion 21
+        targetSdkVersion 24
+        versionCode 3
+        versionName "1.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.google.android.support:wearable:1.4.0'
+    compile 'com.google.android.gms:play-services-wearable:9.2.1'
+    compile 'com.google.code.gson:gson:2.5'
+    compile project(':wearinterface')
+}
